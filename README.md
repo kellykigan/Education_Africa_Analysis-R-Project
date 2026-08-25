@@ -1,6 +1,6 @@
 # 📊 Education Indicators Analysis in Africa (2010–2023)
 
-**Author:** [Kelly Kigan]  
+**Author:** Kelly Kigan  
 **Date:** August 2026  
 **Purpose:** A reproducible quantitative analysis of primary education trends, disparities, and policy-relevant associations across African countries, using publicly available UNESCO data.
 
