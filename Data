@@ -1,0 +1,49 @@
+Education Indicators in Africa (2010–2023)
+Exploratory analysis of primary education outcomes using UNESCO data.
+
+
+Research Questions
+What are the trends in attendance & life expectancy (2010–2023)?
+
+What are the gender and urban‑rural gaps?
+
+What is the association between education spending (% GDP) and attendance?
+
+Dataset
+7 CSV files from UNESCO, country‑year level (54 African countries, 2010–2023)
+
+Missing values marked #N/B → converted to NA during import
+
+Key indicators: attendance, school life expectancy, expenditure, enrolment, teachers, school‑age population
+
+🔧 Core Variables
+Variable	Description
+attend_both	Net primary attendance (%)
+life_exp_male/female	School life expectancy (years)
+exp_prim_gdp	Primary spending (% of GDP)
+attend_urban/rural	Urban/rural attendance (%)
+gender_gap_life	Derived (male – female years)
+urban_rural_gap	Derived (urban – rural pp)
+
+Methods
+Descriptive stats, paired t‑tests, correlation
+
+Linear regression (simple + multiple)
+
+Key Findings
+Average attendance: ~75% (range: 25–99%)
+
+Life expectancy rose from ~9.0 to ~10.5 years
+
+Gender gap: +0.3 years for males (significant but small)
+
+Urban‑rural gap: +8.5 pp for urban (p < 0.001)
+
+Spending association: +1.5 pp attendance per 1% GDP spent (p = 0.007), controlling for year & urban‑rural gap
+
+Limitations
+Observational, no causal claims
+
+Missing data may be non‑random
+
+No country fixed effects or individual controls
